@@ -9,9 +9,6 @@
 </head>
 
 <body>
-    <h1>About Us</h1>
-    <ul>
-    	<li><a href="/about/culture">Our Culture</a></li>
-    </ul>
+    <h1>Our culture</h1>
 </body>
 </html>
