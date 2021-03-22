@@ -1,14 +1,6 @@
-<!DOCTYPE html>
 
-<html lang="pt_BR">
-<head>
-    <meta charset="UTF-8">
+<?php require 'partials/head.php'; ?>  
 
-    <title> Titulo </title>
+	<h1>Our culture</h1>
 
-</head>
-
-<body>
-    <h1>Our culture</h1>
-</body>
-</html>
+<?php require 'partials/footer.php'; ?>
