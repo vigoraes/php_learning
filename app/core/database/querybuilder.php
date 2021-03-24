@@ -26,8 +26,20 @@ class QueryBuilder{
 			$statament->execute($parameters);
 		}catch(Exception $e){
 			die($e->getMessage());
-		}
-
-		
+		}	
 	}
+
+	/*public function delete($table, $parameters){
+		$sql = sprintf('delete from %s where %s = %s', $table, 
+			implode(', ', array_keys($parameters)),
+			':' . implode(', :', array_keys($parameters)));
+
+		try{
+			$statament = $this->pdo->prepare($sql);
+
+			$statament->execute($parameters);
+		}catch(Exception $e){
+			die($e->getMessage());
+		}	
+	}*/
 } 

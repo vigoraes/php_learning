@@ -1,6 +1,6 @@
 <?php
 
-App::get('database')->insert('users', [
+App::get('database')->delete('users', [
 	'name' => $_POST['name']
 ]);
 
