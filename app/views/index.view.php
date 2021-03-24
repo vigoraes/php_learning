@@ -11,4 +11,9 @@
         <input type="" name="name">
         <button type="submit">Ok</button>
     </form>
+    <h1>Nome que deseja deletar:</h1>
+    <form method="POST" action="/delete">
+        <input type="" name="name-delete">
+        <button type="submit">Ok</button>
+    </form>
 <?php require 'partials/footer.php'; ?>

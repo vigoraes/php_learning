@@ -29,7 +29,7 @@ class QueryBuilder{
 		}	
 	}
 
-	/*public function delete($table, $parameters){
+	public function delete($table, $parameters){		
 		$sql = sprintf('delete from %s where %s = %s', $table, 
 			implode(', ', array_keys($parameters)),
 			':' . implode(', :', array_keys($parameters)));
@@ -41,5 +41,7 @@ class QueryBuilder{
 		}catch(Exception $e){
 			die($e->getMessage());
 		}	
-	}*/
+	} 
+
+
 } 
