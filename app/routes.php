@@ -9,9 +9,11 @@
 ]);*/
 
 
-$router->get('', 'controllers/index.php');
-$router->get('about', 'controllers/about.php');
-$router->get('about/culture', 'controllers/about-culture.php');
-$router->get('contact', 'controllers/contact.php');
-$router->post('names', 'controllers/add-name.php');
-$router->post('delete', 'controllers/delete-name.php');
+$router->get('', 'pageController@home');
+$router->get('about', 'pageController@about');
+$router->get('about/culture', 'pageController@aboutCulture');
+$router->get('contact', 'pageController@contact');
+$router->get('users', 'usersController@index');
+
+$router->post('names', 'usersController@store');
+$router->post('delete', 'usersController@remove');
